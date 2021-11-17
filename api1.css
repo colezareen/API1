@@ -1,0 +1,26 @@
+.cat {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    z-index: -1;
+}
+
+.phoneCollect {
+    display: flexbox;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 500px;
+}
+
+.form {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+p{
+    background-color: red;
+}
